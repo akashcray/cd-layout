@@ -1,0 +1,90 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*Header start*/
+
+header{
+	overflow: hidden;
+}
+.logo{
+	width: 30%;
+	font-size: 25px;
+	background-color: #c0c0c0;
+	min-height: 100px;
+	float: left;
+	color: #000;
+}
+
+.logo a{
+	text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.logo a p{
+	font-size: 17px;
+	margin: 0;
+}
+
+.menu{
+	width: 68%;
+	font-size: 30px;
+	background-color: #c0c0c0;
+	min-height: 100px;
+	float: right;
+}
+
+/*banner*/
+.banner{
+	margin: 20px 0;
+}
+.bg{
+	width: 100%;
+	font-size: 30px;
+	background-color: #c0c0c0;
+	min-height: 150px;
+}
+
+/*Intro*/
+.intro{
+	margin: 20px 0;
+}
+.bg{
+	width: 100%;
+	font-size: 30px;
+	background-color: #c0c0c0;
+	min-height: 100px;
+}
+
+/*boxes start*/
+.boxes{}
+.box-head{
+	display: flex;
+	justify-content: space-between;
+}
+.box{
+	width: 30%;
+	font-size: 30px;
+	background-color: #c0c0c0;
+	min-height: 200px;
+	float: left;
+}
+
+/*footer*/
+footer{
+	margin: 10px 0;
+}
+
+.f-content{
+	width: 100%;
+	font-size: 30px;
+	background-color: #c0c0c0;
+	min-height: 80px;
+}
